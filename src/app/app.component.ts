@@ -10,8 +10,8 @@ import { Component } from '@angular/core';
           [routerLink]="['/home']">Home</a></li>
           <li><a class='nav-link' routerLinkActive='active' routerLink='/skills'>Skill List</a></li>
           <li><a class='nav-link' routerLinkActive='active' routerLink=''>My Skills</a></li>
-          <li class='nav-item'><a class='nav-link' routerLinkActive='active' [routerLinkActiveOptions]="{exact: true}"
-          [routerLink]="['/skills/0/edit']">Add Skill</a></li>
+          <li class='nav-item'><a class='nav-link' routerLinkActive='active' [routerLinkActiveOptions]="{exact: true}" routerLink="/skills-edit">Add Skill</a></li>
+
           
 
         </ul>
