@@ -15,7 +15,7 @@
     <tbody>
   <tr *ngFor="let userSkill of mockUserSkills">
     <td>{{ userSkill.user.userName }}</td>
-    <td> {{ userSkill.skill.skillName }}</td>
+    <a [routerLink]="['/skills-edit', userSkill.id]"><td> {{ userSkill.skill.skillName }}</td></a>
     <td>{{ userSkill.user.description }}</td>
     <td>{{ userSkill.skill.skillCategory }}</td>
     <td>{{ userSkill.experienceLevel }}</td>
